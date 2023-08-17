@@ -2,6 +2,7 @@ spring:
   cloud:
     zookeeper:
       connect-string: 10.22.191.78:2181
+      enabled: true
       properties:
         authProvider:1: org.apache.zookeeper.server.auth.SASLAuthenticationProvider
         requireClientAuthScheme: sasl
